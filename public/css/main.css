@@ -1,0 +1,36 @@
+/* Comentários em CSS
+Regras CSS:
+
+em: busca no elemento anterior (no caso de body, html)
+1 em = 16px
+
+rem: root element, busca a informação a partir do elemento raiz/pai
+
+* = propriedade geral
+. = classe
+# = id
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
